@@ -1,0 +1,69 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+  background-color: red;
+  color: white;
+  flex-wrap: wrap;
+  list-style: none;
+  font-weight: 1200;
+  display: inline;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+ul {
+  background-color: white;
+  list-style: none;
+  align-items: center;
+  text-decoration: none;
+  display: inline;
+  display: flex;
+  flex-wrap: inherit;
+  justify-items: center;
+  gap: 50px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+input {
+  margin-left: 50px;
+  padding: 25px;
+  color: white;
+  background-color: blue;
+}
+
+.container{
+    margin-top: 100px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+  background-color: white;
+  height: 400px;
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  color: red;
+  border-style: outset;
+  display: flex;
+  flex-wrap: wrap;
+}
+.head {
+  margin-left: 70px;
+  text-decoration: underline;
+}
+p{
+    color: black;
+    margin-left: 20px;
+} a{
+  text-decoration: none;
+  list-style: none;
+}

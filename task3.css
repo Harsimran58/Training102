@@ -1,0 +1,144 @@
+.navbar{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    display:flex;
+    background-color: white;
+    font-weight: 900px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e9e8e6;
+
+
+}
+.words{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    color: gray;
+}
+
+
+.introduction{
+    width: 100%;
+    height: 120vh;
+}
+
+.image-container{
+    background-image: url('https://bootstrapmade.com/content/demo/Kelly/assets/img/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    width: 100%;
+    height: 20vh;
+}
+
+.net{
+    font-weight: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -20px;
+
+
+}
+.net2{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.about2{
+     padding: 10px; 
+     padding-left: 10px;
+     padding-right: 10px;
+    border-radius: 20px;
+    background-color: skyblue;
+}
+.about2:hover{
+    background-color: lightblue;
+}
+a:hover{
+    color: skyblue;
+} 
+.footer{
+    margin-left: 40%;
+    align-content: center;
+    justify-content: center;
+}
+.logo2{
+    margin-left: 30px;
+    gap: 150px;
+display: flex;
+gap:20px;
+color: gray;
+}
+#twitter{
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+#facebook{
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+#instagram{
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+#linkedin{
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+#twitter:hover{
+    color: skyblue;
+}
+#facebook:hover{
+    color: skyblue;
+}
+#instagram:hover{
+    color: skyblue;
+}
+#linkedin:hover{
+    color: skyblue;
+}
+#twit:hover{
+    color: skyblue;
+}
+#face:hover{
+    color: skyblue;
+}
+#insta:hover{
+    color: skyblue;
+}
+#linkd:hover{
+    color: skyblue;
+}
+#home{
+    color: skyblue;
+}
+a:hover{
+    text-decoration: underline;
+}

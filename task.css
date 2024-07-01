@@ -1,0 +1,53 @@
+.task{
+    height: 300px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    margin-left: 50px;
+border-style: ridge;
+border-radius: 10px;
+
+}
+img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 150px;
+    width: 200px;
+    position: absolute;
+    
+}
+.img2{
+    height: 100px;
+    position: relative;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 50%;
+    border-radius: 50%;
+}
+.button{
+    height: 30px;
+    margin-left: 25px;
+    position: relative;
+    width: 150px;
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+    
+}
+.head1{
+    font-size: medium;
+    position: relative;
+    margin-left: 32%;
+    color: black;
+}
+.head2{
+    font-size: small;
+    color: black;
+    margin-left: 32%;
+}
+.img1{
+    opacity: 70%;
+}

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+
+<br><br><br><br>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Click for more information 👆
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Click for more information 👆
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Click for more information 👆
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+      </div>
+
+<br><br><br>
+
+<div class="accordion" id="accordionPanelsStayOpenExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+          Accordion Item #1
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+        <div class="accordion-body">
+          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+          Accordion Item #2
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+          Accordion Item #3
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br><br><br>
+
+
+ 
+
+ <div class="d-flex justify-content-between">
+
+    <div class="card" style="width: 18rem;">
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Img23/Budget3/REC-PC_CC_379x304._SY304_CB564096366_.jpg" class="card-img-top" alt="...">
+       <br><br>
+        <div class="card-body">
+          <h5 class="card-title">Samgung Products</h5>
+          <p class="card-text">A good Discount on samsung products.</p>
+          <br><br><br>
+          <a href="https://www.amazon.in/s?k=samsung+products&crid=3V81FCWU36BLY&sprefix=samsung+prod%2Caps%2C243&ref=nb_sb_ss_ts-doa-p_3_12" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG23/TVs/nikita/1/1/Samsung_Mi_PC_CC_379x304._SY304_CB562051643_.jpg" class="card-img-top" alt="...">
+        <br><br>
+        <div class="card-body">
+          <h5 class="card-title">4k TVs</h5>
+          <p class="card-text">A perfect deal in 4k TVs with great discounts.</p>
+          <br><br><br>
+          <a href="https://www.amazon.in/b/?_encoding=UTF8&node=1389396031&pd_rd_w=EaR4c&content-id=amzn1.sym.202553eb-9e52-4405-b580-7021bf678b86&pf_rd_p=202553eb-9e52-4405-b580-7021bf678b86&pf_rd_r=Z09MYANYGTGNYW4140ZE&pd_rd_wg=6agR6&pd_rd_r=50b6b481-ef0b-4c96-bbfc-8933d410da4c&ref_=pd_hp_d_atf_unk" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    
+      <div class="card" style="width: 18rem;">
+        <img src="https://m.media-amazon.com/images/I/41Aw8+krn+L._SR480,440_.jpg" class="card-img-top" alt="...">
+        <br>
+        <div class="card-body">
+          <h5 class="card-title">ASUS TUF A15</h5>
+          <p class="card-text">Get the beast to home at very nice price.</p>
+          <br><br><br>
+          <a href="https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo0NDAxMDE5NjU5MDc2NTA4OjE3Mjc0Mzg4NDA6c3BfYXRmOjMwMDI0NzM3MjE4NTQzMjo6MDo6&url=%2FASUS-15-6-inch-GeForce-Graphite-FA506NCR-HN054W%2Fdp%2FB0D5DFR78J%2Fref%3Dsr_1_2_sspa%3Fcrid%3D31HL8DHARS873%26dib%3DeyJ2IjoiMSJ9.yY-4ZS2ZL3anB7MyOHF7sD1eiPba_qst4OnYN9Zuyjyaa2EZHlUVNAMQK_KHkqf1h8nUPl895Pa66AW1QfeejG25iY59sT_yg0JPo1Cgnk4HV1slPRRHs2pb3Pzl9Q_yUcoawZWnbI-oMbs3o1kzmNGVervTsa2JrDdPar4zqYJpSVM-pLu27HSZSiKD51xHNyrVZQOmcYDOPQsRLfto9GFnrIDEvvERJme9vuJLkYs.WDLA_-aAsuPdHcC8PFYTmYXKlgomYv9Nb3F5UxJO7rc%26dib_tag%3Dse%26keywords%3Dtuf%2Ba15%26qid%3D1727438840%26sprefix%3Dtuf%2Ba15%252Caps%252C239%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    
+      <div class="card" style="width: 18rem;">
+        <img src="https://m.media-amazon.com/images/G/31/img21/Wireless/katariy/Apple/iphone_SE/preorder/iPhone-13-Pro-Max-green._CB626872867_.png" class="card-img-top" alt="...">
+        <br><br><br><br><br>
+        <div class="card-body">
+          <h5 class="card-title">iPhone 15 pro max</h5>
+          <p class="card-text">get Apple iphone with excited offers and cashback offers.</p>
+          <br><br>
+          <a href="https://www.amazon.in/Apple-iPhone-Pro-Max-256/dp/B0CHX68YG9/ref=sr_1_5?crid=31UR39V2INPNA&dib=eyJ2IjoiMSJ9.OCoJgZ8ghdguKvc7Ozmt3PoqICET9KbBep8_jcae4nBbM4WteheaXp92tIbekf_DLPN37jIIkUZDFAIPaIPq8TOkLxMm3vbVbv5r8e6HhX0VW0KjCWX8DKCoN1cnhJQCtc66TNkZlhiPUQi3xcHsFHvh-z5oGrKsPQhccKtjGNxB3hrfRy82YW2H0kJmzTp0H5s7pUYVXAG9sUkUqt8tuKqY4U_fUc6X3bTc2qVMZ1k.VazXI_G4XDxbkgQ0ERseNE9_k-Q_Ug0AaLV4daSBk6M&dib_tag=se&keywords=iphone+13+pro+max&qid=1727438896&sprefix=iphone+13+pro%2Caps%2C237&sr=8-5" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    
+      <div class="card" style="width: 18rem;">
+        <img src="https://m.media-amazon.com/images/I/81vxWpPpgNL._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">SAMSUNG S24 ultra</h5>
+          <p class="card-text">Samsung S24 Ultra with hot deals🔥.</p>
+          <br><br><br>
+          <a href="https://www.amazon.in/sspa/click?ie=UTF8&spc=MToyMTUzMzE5Nzg2MTg0ODE3OjE3Mjc0MzkwMDE6c3BfYXRmOjMwMDEyMjM3OTg1ODEzMjo6MDo6&url=%2FSamsung-Galaxy-Smartphone-Titanium-Storage%2Fdp%2FB0CQYGF1QY%2Fref%3Dsr_1_1_sspa%3Fcrid%3D14FPG88CV0XX3%26dib%3DeyJ2IjoiMSJ9.HF85AamNnxeD7DjVPXE_2lbw8rhIpkRxqkJyBBtSc5dgpY7gwOmd0N3EaEWxaPEhQD4-zE7btM636o1m33PyFJZZDPJozqpzoT2Fx5MlyRrDtsN2lLIjn_jDAw-91ZTMPD39UvxcWzoY5hNfL5W4wYYGonPjU5_m6MYs-Zih0ApX3Bf1PzbJl2y0O7jhEVeoiseKvQKtNMoY8v3Img1gcAsotzebFyeaJ0Z-UZgdmtU.ASjk4yCHAXwFT53DXMygiOXxozH4BK8H_hLL1IyOPWM%26dib_tag%3Dse%26keywords%3Dsamsung%2Bs24%26nsdOptOutParam%3Dtrue%26qid%3D1727439001%26sprefix%3Dsams%252Caps%252C245%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+ </div>
+<br><br><br>
+
+ <div class="d-flex justify-content-between">
+
+    <div class="card" style="width: 18rem;">
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Img23/Budget3/REC-PC_CC_379x304._SY304_CB564096366_.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Samsung products</h5>
+          <br><br><br><br>
+          <p class="card-text">A good Discount on samsung products.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG23/TVs/nikita/1/1/Samsung_Mi_PC_CC_379x304._SY304_CB562051643_.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://m.media-amazon.com/images/I/41Aw8+krn+L._SR480,440_.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://m.media-amazon.com/images/G/31/img21/Wireless/katariy/Apple/iphone_SE/preorder/iPhone-13-Pro-Max-green._CB626872867_.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://m.media-amazon.com/images/I/81vxWpPpgNL._AC_UY327_FMwebp_QL65_.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+ </div>
+ <br><br><br>
+
+ <div class="d-flex justify-content-between">
+    <div class="card">
+        <div class="card-header">
+          Featured
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          Featured
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div><div class="card">
+        <div class="card-header">
+          Featured
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          Featured
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+ </div>
+
+ 
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
